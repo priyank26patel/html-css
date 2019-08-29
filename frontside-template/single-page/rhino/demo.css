@@ -1,0 +1,42 @@
+body{
+background-color:#424242;
+}
+
+#wrapper{
+width:700px;
+margin:100px auto;
+}
+
+.logo{
+width:233px;
+margin:0px auto 100px auto;
+}
+
+h2{
+font-family:'Russo One';
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+}
+
+h4{
+font-family:'Open Sans';
+text-transform:uppercase;
+color:#fff;
+}
+
+section{
+border-top:1px solid #3a3a3a;
+margin:20px 0px;
+padding:0px 0px;
+width:500px;
+margin:0px auto;
+}
+
+article{
+margin-bottom:100px;
+}
+
+section img{
+
+}

@@ -1,0 +1,180 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background:#FFF;
+}
+/*----start-wrap-----*/
+.wrap{
+	padding:0px 10px;
+}
+/*----start-header----*/
+.header{
+	background: url(../images/header-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	min-height: 263px;
+}
+/*----header-left----*/
+/*---header-right----*/
+.header-right{
+	padding: 1% 0 1% 0;
+	text-align: center;
+}
+.header-right span{
+	width:80px;
+	height:161px;
+	display:block;
+	background:url(../images/header-divices.png) no-repeat;
+	margin: 0 auto;
+	margin-top: 0.8em;
+}
+.header-right p{
+	color: #FFF;
+	font-size: 0.875em;
+	width: 90%;
+	line-height: 1.3em;
+	margin: 0.5em auto;
+}
+.bigbtn{
+	background: #F12078;
+	color: #FFF;
+	display: inline-block;
+	padding: 0.6em 1.2em;
+	font-size: 0.9em;
+	margin-bottom:1em;
+}
+.bigbtn:hover{
+	color:#F12078;
+	background:#FFF;
+}
+/*----//End-header----*/
+/*---big-btns---*/
+.avilabel li a{
+	height: 30.5px;
+	width: 100px;
+	display: block;
+}
+.avilabel li{
+	display:inline-block;
+}
+.iphone{
+	background: url(../images/img-sprit.png) no-repeat 0px -30px;
+}
+.google{
+	background:url(../images/img-sprit.png) no-repeat 0px 0px;
+}
+.avilabel {
+	text-align: center;
+	margin-top: 1em;
+}
+.avilabel p{
+	font-size:0.875em;
+	margin-bottom:0.5em;
+	
+}
+/*---start-get-download----*/
+.get-download {
+	text-align: center;
+}
+.get-download p{
+	font-size: 0.9em;
+	color: #1E1F22;
+	margin: 0.8em 0;
+}
+.get-download p span{
+	font-weight:600;
+}
+.downloadbtn{
+	background: #F12078;
+	color: #FFF;
+	display: inline-block;
+	padding: 0.4em 0.8em;
+	font-size: 0.875em;
+	margin: 0 0.5em;
+}
+.downloadbtn:hover{
+	color:#F12078;
+	background:#1E1F22;
+}
+.slogo img{
+	vertical-align: middle;
+	margin: 0 0.8em;
+}
+/*---start-divice-fea----*/
+.divice-fea {
+	margin-top: 1em;
+}
+.divice-fea-left{
+	width:100%;
+}
+.divice-fea-left label{
+	background: url(../images/cs-divices.png) no-repeat;
+	height:183px;
+	width: 120px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.8em;
+}
+.divice-fea-left-grid h3{
+	font-size: 1em;
+	color: #2E2E2E;
+}
+.divice-fea-left-grid h3 span{
+	font-weight: 700;
+}
+.divice-fea-left-grid p{
+	color: #5E5E5E;
+	line-height: 1.5em;
+	font-size: 0.875em;
+	margin: 0.5em 0 0.6em 0;
+}
+/*---//End-divice-fea----*/
+/*----start-footer----*/
+.footer {
+	border-top: 2px solid #2E2E2E;
+	padding: 1em 0;
+	margin-top: 1.5em;
+}
+.footer-left{
+	text-align:center;
+}
+.footer-left span{
+	color:#F03D87;
+}
+.footer-left p,.footer-right p{
+	font-size:0.875em;
+	color:#2E2E2E;
+}
+.footer-right p a{
+	color:#F03D87;
+}
+.footer-right p a:hover{
+	color:#2E2E2E;
+}
+.footer-right{
+	text-align:center;
+	margin:0.5em 0;
+}
+/*----//End-footer----*/
+/*----//End-wrap-----*/

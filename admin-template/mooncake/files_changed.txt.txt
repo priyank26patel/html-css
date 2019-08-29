@@ -1,0 +1,16 @@
+All CSS files are formatted with http://cssbeautify.com/
+
+layout.css
+widget.css
+customizer.js
+customizer.css
+
+all HTML files
+table.css
+
+Added two design styles: Simple and Creative
+Added a landing page for choosing design style
+Formatted all CSS files with http://cssbeautify.com/
+Modified the customizer placement and size
+Added two new table examples
+Minor Bug Fixes
